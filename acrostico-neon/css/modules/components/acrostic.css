@@ -1,0 +1,26 @@
+.acrostic {
+    padding-top: var(--element-spacing);
+    padding-bottom: var(--element-spacing);
+    background-image: radial-gradient(transparent, var(--primary-background-color));
+
+    & .acrostic___stanza {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: grid;
+        gap: calc(var(--element-spacing)*0.5);
+    }
+
+    & .acrostic__verse {
+        font-weight: 700;
+        text-shadow: 0 0 calc(var(--element-size)*0.25) var(--element-size) greenyellow,
+            0 0 0.125rem greenyellow;
+
+        &::first-letter {
+            font-size: 1.5rem;
+
+        }
+    }
+
+
+}
