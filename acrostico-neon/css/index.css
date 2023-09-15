@@ -15,7 +15,7 @@
 @import url('./modules/layout/container.css');
 @import url('./modules/layout/body.css');
 
-:root {
+/*:root {
     scroll-behavior: smooth;
     --primary-theme-color: crimson;
     --secondary-theme-color: magenta;
@@ -59,7 +59,7 @@
     gap: 0.5rem;
 }*/
 
-.hero__name {
+/*.hero__name {
     all: unset;
     cursor: pointer;
     display: flex;
@@ -141,11 +141,11 @@
 
 .container {
     /*width: 100%;*/
-    max-width: 1024px;
+/*    max-width: 1024px;
     padding-right: 1rem;
     padding-left: 1rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
